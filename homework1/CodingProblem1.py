@@ -5,13 +5,13 @@
 
 print("Birthday Calculator")
 print("Current Day")
-currentmonth = input("Month: ")
+currentmonth = int(input("Month: "))
 currentday = int(input("Day: "))
 currentyear = int(input("Year: "))
 
 #ask user for birth date by month day and year
 print("Birthday")
-birthmonth = input("Month: ")
+birthmonth = int(input("Month: "))
 birthdate = int(input("Day: "))
 birthyear = int(input("Year: "))
 
