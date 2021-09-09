@@ -18,6 +18,7 @@ birthyear = int(input("Year: "))
 #calculate birthday by year
 
 cal_birthday = currentyear - birthyear
+
 #user birthday haven't passed yet
 
 not_passed_birthmonth = cal_birthday - 1
