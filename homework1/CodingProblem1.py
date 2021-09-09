@@ -26,6 +26,8 @@ if currentday == birthdate and currentmonth == birthmonth:
     print("Happy Birthday!")
 elif currentday <= birthdate and currentmonth == birthmonth:
     print("You are", not_passed_birthday, "years old.")
+elif currentmonth < birthmonth:
+    print("You are", not_passed_birthday, "years old.")
 else:
     print("You are", cal_birthday, "years old." )
 
