@@ -24,21 +24,7 @@ not_passed_birthday = cal_birthday - 1
 if currentday == birthdate and currentmonth == birthmonth:
     print("You are", cal_birthday, "years old.")
     print("Happy Birthday!")
-elif currentday <= birthdate and currentmonth == birthmonth:
-    print("You are", not_passed_birthday, "years old.")
-elif currentmonth < birthmonth:
+elif (currentmonth == birthmonth and currentday < birthdate) or (currentmonth < birthmonth) :
     print("You are", not_passed_birthday, "years old.")
 else:
     print("You are", cal_birthday, "years old." )
-
-
-
-
-
-
-
-
-
-
-
-
