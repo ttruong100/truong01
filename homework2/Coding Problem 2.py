@@ -55,11 +55,11 @@ for line in my_file:
                                 valid_dates = my_dates_into_datetime                #if true then store into variable
 
                                 final_format = valid_dates.strftime("%#m/%#d/%Y")   #date to string to print out the correct format
-                                print(final_format)
+                                
                     
-                            with open('parsedDates.txt','w'):           #open the paredDates,txt to write output
-                                my_output.write(final_format)              #write the output
-                                my_output.write('\n')               #write the output with newline at the end
+                                with open('parsedDates.txt','w'):           #open the paredDates,txt to write output
+                                    my_output.write(final_format)              #write the output
+                                    my_output.write('\n')               #write the output with newline at the end
 
                         
 
