@@ -36,7 +36,7 @@ for line in my_file:
                 c2_length = len(c)
                 
                 if a in my_months:                  #month must be valid
-                    if b2_length <= 3:              #day must be between 1-31
+                    if b2_length <= 3:              #day must be between 1-31 with ,
                         if c2_length in range(1,100000):   #year must be between 1-9999
 
                             new_list = ' '.join([str(elem) for elem in split_the_date]) #dates with the inital correct format list to string
