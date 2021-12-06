@@ -198,14 +198,7 @@ while userinput != "q":                 #looping until user enter q to quit the 
             print("You may also consider:", ' '.join([i for sub in similarstuff for i in sub]),"\n")   #print the simlar item as a single string
 
     elif notfounded():          #if item does not exist
-        print("No such item in inventory\n")  #print no item exist
-
-        
-
-        
-        
-
-                
+        print("No such item in inventory\n")  #print no item exist           
         
     userinput = input("Enter the Manufactuer and Item Name or q to quit:\n")         #ask the user for the input to go through the query again
 if userinput == "q":                                                                #if user type q then quit the query
