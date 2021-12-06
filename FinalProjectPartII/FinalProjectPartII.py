@@ -3,7 +3,6 @@
 
 import csv #enable to read and use csv files
 from datetime import datetime
-from os import error, remove, terminal_size
 
 
 first_input = input("Enter Manufacturer List:\n")   #manulist input
@@ -160,8 +159,7 @@ for i in fullinventory:                          #go through all the items in th
             newlist.append(filtereditems)           #append to the newlist
 
 
-
-userinput = input("Enter the Manufactuer and Item Name:\n")  #get the user input                 
+userinput = input("\nEnter the Manufactuer and Item Name:\n")  #get the user input                 
 
 while userinput != "q":                 #looping until user enter q to quit the program
 
@@ -200,7 +198,7 @@ while userinput != "q":                 #looping until user enter q to quit the 
             print("You may also consider:", ' '.join([i for sub in similarstuff for i in sub]),"\n")   #print the simlar item as a single string
 
     elif notfounded():          #if item does not exist
-        print("No such item in inventory")  #print no item exist
+        print("No such item in inventory\n")  #print no item exist
 
         
 
